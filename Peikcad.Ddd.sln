@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1/ Meta", "1/ Meta", "{7EC5442F-ECE1-4AE1-AA48-0ECB718B7BB0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		LICENSE = LICENSE
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2/ Build", "2/ Build", "{87AB3652-049C-4F1D-88B9-161AFE9F637B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		Peikcad.Ddd.ruleset = Peikcad.Ddd.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peikcad.Ddd", "src\Peikcad.Ddd\Peikcad.Ddd.csproj", "{F370648D-DF11-4A59-BCE8-71B8AD89F417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peikcad.Ddd.Tests", "tests\Peikcad.Ddd.Tests\Peikcad.Ddd.Tests.csproj", "{AE8895E4-E351-4703-89FA-2281520DB34D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F370648D-DF11-4A59-BCE8-71B8AD89F417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F370648D-DF11-4A59-BCE8-71B8AD89F417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F370648D-DF11-4A59-BCE8-71B8AD89F417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F370648D-DF11-4A59-BCE8-71B8AD89F417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8895E4-E351-4703-89FA-2281520DB34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8895E4-E351-4703-89FA-2281520DB34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8895E4-E351-4703-89FA-2281520DB34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8895E4-E351-4703-89FA-2281520DB34D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
